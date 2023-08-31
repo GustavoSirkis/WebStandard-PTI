@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/public/css/global.css">
+    <link rel="stylesheet" href="/public/css/normalize.css">
+    <title>Desenvolvedor Front End</title>
+</head>
+<body>
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <nav class="nav-container">
+
+        <input type="checkbox" id="nav-check">
+
+        <div class="nav-title">
+                <img src="/public/assets/image/logo.svg" alt="">   
+        </div>          
+
+        
+        <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+        </div>   
+    
+        <div class="nav-links">
+                <a href="#" target="_blank">Home</a>
+                <a href="#" target="_blank">Github</a>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">Contato</a>
+        </div>
+
+
+        
+
+    </nav>
+    
+    <!-- BANNER -->
+    <header class="banner-container">
+        <div class="banner-card">
+            <img src="/public/assets/image/logo.svg" alt="">
+            <h1>DESENVOLVEDOR FRONT END</h1>
+            <div class="banner-description">
+           
+                    <p>
+                        Profissional formado na área de Ciências da Computação, com diplomação
+                        superior em Análise e Desenvovimento de Sistemas, com 4 anos de experiência 
+                        em criação de aplicações web e mobile. 
+                         
+                    </p>
+                    <p>
+                        Utilizo uma abordagem equilibrada entre design e funcionalidade colaboro com equipes multidisciplinares, incluindo 
+                    designers de UX/UI, desenvolvedores back-end e outros stakeholders, garantindo a entrega bem-sucedida.
+                    </p>
+                
+
+               
+            </div> 
+            <div class="banner-action">
+                <h2>Conheça minhas especialidades!</h2>
+                <a class="button" href="#conhecer">Conhecer Agora</a>   
+            </div>
+                   
+        </div>
+    </header>
+
+    <!-- SEÇÃO 01 TECNOLOGIAS -->
+    <section class="section1-container" id="conhecer">
+        <h1>Tecnologias</h1>
+        <div class="s1-cards-container">
+            <div class="s1-card01">
+                <img src="/public/assets/image/AngularJS-Shield.svg" alt="">
+                <h3>Angular by GooGle</h3>
+                <p>framework JavaScript mantido pelo Google, utilizado para criar aplicativos web dinâmicos e SPA. O Angular oferece uma estrutura completa com recursos como injeção de dependências, gerenciamento de estado e roteamento.</p>
+            </div>
+            <div class="s1-card01">
+                <img src="/public/assets/image/React-icon.svg" alt="">
+                <h3>React by Meta</h3>
+                <p>biblioteca JavaScript de código aberto desenvolvida pelo Facebook, usada para construir interfaces de usuário reativas e componentizadas. O React permite a criação de aplicativos de página única (SPA) e promove a reutilização de componentes.</p>
+            </div>
+            <div class="s1-card01">
+                <img src="/public/assets/image/JQuery-Logo.svg" alt="">
+                <h3>JQuery by OpenJS</h3>
+                <p>Biblioteca JavaScript que simplifica a manipulação do DOM, animações, requisições AJAX e outras tarefas comuns. Embora tenha sido muito popular, seu uso tem diminuído com a ascensão de frameworks como React e Vue.js.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 02 GERENCIAMENTO DE VERSÕES-->
+    <section class="section2-container">
+        <h1>Gerenciamento de Versões</h1>
+        <div class="s2-card-container">
+            <div class="s2-img">
+                <img src="/public/assets/image/GitHub_Logo.png" alt="">
+                <img src="/public/assets/image/github-mark.svg" alt="">
+            </div>            
+            <div class="s2-description">               
+                <p>Um sistema de versionamento permite que várias pessoas trabalhem no mesmo conjunto de arquivos (repositório) ao mesmo tempo evitando conflitos entre as alterações das versões do projeto. Cada membro do time de desenvolvimento tem sua “cópia” dos arquivos que ao final das alterações é colocada junto das versões alteradas dos demais.</p>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- SEÇÃO 03 FORMULÁRIO -->
+    <section class="section3-container">
+        <h1>FORMULÁRIO PARA CONTATO</h1>
+        <div class="form-card">
+            
+            <form class="form-container" action="action_page.php">
+          
+              <label for="fname" hidden>Nome</label>
+              <input type="text" id="fname" name="firstname" placeholder="Seu nome..">
+          
+              <label for="lname" hidden>Sobrenome</label>
+              <input type="text" id="lname" name="lastname" placeholder="Seu sobrenome..">
+          
+              <label for="country" hidden>País de Origem</label>
+              <select id="country" name="country" placeholder="País de origem">
+                <option value="null">País de Origem</option>
+                <option value="australia">Austrália</option>
+                <option value="Brasil">Brasil</option>
+                <option value="canada">Canadá</option>
+                <option value="usa">EUA</option>
+              </select>
+          
+              <label for="subject" hidden>Mensagem</label>
+              <textarea id="subject" name="subject" placeholder="Escreva aqui sua mensagem..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Enviar">
+          
+            </form>
+          </div>
+        
+    </section>
+
+    <!-- FOOTER - RODAPÉ -->
+    <footer class="footer-container">
+
+        <div class="footer-card">
+            <img src="/public/assets/image/logo.svg" alt="">
+            <ul class="footer-links">
+                <li>E-mail: <a href="">guzslightyear@gmail.com</a> </li>
+                <li>Telefone: <a href="">+55 21 98799-9098</a> </li>
+                <li>Endereço: Avenida Castello Branco, Edifício Edson Arantes.</li>
+            </ul>
+        </div>
+
+        <div class="copyright-info">
+            <span>Copyright &copy; <span id="year"><script type="text/Javascript">
+                document.getElementById("year").innerHTML = (new Date().getFullYear());
+              </script> </span>, Designed &amp; Developed by <a href="#">GuZ Dev</a></span>
+          </div>
+        
+
+    </footer>
+
+    
+
+    
+</body>
+</html>
