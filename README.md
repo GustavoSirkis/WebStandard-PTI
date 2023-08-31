@@ -8,10 +8,10 @@ Link para o site:  https://gustavosirkis.github.io/WebStandard-PTI/src/pages/hom
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+ <!--  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
-
+ -->
   <h3 align="center">WebStandards</h3>
 
   <p align="center">
@@ -34,7 +34,7 @@ Link para o site:  https://gustavosirkis.github.io/WebStandard-PTI/src/pages/hom
     <li>
       <a href="#about-the-project">Protipação</a>
       <ul>
-        <li><a href="#built-with">Tecnologias Tilizadas</a></li>
+        <li><a href="#built-with">Tecnologias Usadas</a></li>
       </ul>
     </li>
   </ol>
@@ -43,7 +43,7 @@ Link para o site:  https://gustavosirkis.github.io/WebStandard-PTI/src/pages/hom
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ## SOBRE O PROJETO
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -62,7 +62,7 @@ Use the `BLANK_README.md` to get started.
 
 
 
-### Built With
+### Tecnologias Utilizadas
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
@@ -77,3 +77,4 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+ -->
