@@ -23,7 +23,7 @@
   <h3 align="center">Prototipo</h3>
  <br />
     <br />
-    <img src="/public/assets/image/Prototipo.png" alt="Logo" width="80" height="80">
+    <img src="/public/assets/image/Prototipo.png" alt="Logo" width="500" height="1000">
 
 
 
